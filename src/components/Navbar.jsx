@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* Логотип (текстовый или картинка) */}
-      <div className="logo">Positivus</div>
+      <div className="logo">LandingPage</div>
       
       {/* Ссылки навигации */}
       <ul className="nav-links">

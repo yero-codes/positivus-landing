@@ -51,8 +51,8 @@
 }
 
 .btn-register {
-  background-color: #000; /* Кнопка "Get Started" обычно черная */
-  color: #fff;
+  background-color: #009379; /* Кнопка "Get Started" в макете зеленая*/
+  color: #ffffff;
   border: none;
   padding: 12px 24px;
   border-radius: 8px; /* Скругление */
