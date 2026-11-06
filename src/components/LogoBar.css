@@ -1,0 +1,22 @@
+.logo-bar {
+  background-color: #ffffff;
+  padding: 55px 0; /* Верхний и нижний отступы из Figma */
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between; /* Распределяем логотипы по ширине */
+  align-items: center;
+  max-width: 1280px; /* Ширина из Figma */
+  margin: 0 auto;
+  padding: 0 60px; /* Горизонтальные отступы */
+  gap: 10px; /* Gap из Figma */
+}
+
+.logo-item {
+  font-size: 20px;
+  font-weight: bold;
+  color: #191A23; /* Темный цвет, как в макете */
+  opacity: 0.7; /* Делаем их чуть бледнее, как в макете */
+}
