@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Start monitoring your website like a pro</h1>
-        <p>Get a bird's eye view with our customizable dashboard. Stay on top of things! Revamp your work process with our game-changing feature. Boost productivity and efficiency!</p>
+        <h1>Create Engaging Landing Pages</h1>
+        <p>Build beautiful landing pages in record time with Anima's Landing Page UI Kit for Figma. No code required!</p>
         
         <div className="hero-buttons">
           <button className="btn-primary">Get Started</button>
-          <button className="btn-secondary">View Pricing</button>
+          <button className="btn-secondary">How it works</button>
         </div>
       </div>
 
