@@ -60,3 +60,16 @@
   font-size: 16px;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Элементы встают в колонку */
+    padding: 20px;
+    gap: 20px;
+  }
+  .nav-links {
+    flex-wrap: wrap; /* Ссылки переносятся на новую строку */
+    justify-content: center;
+    gap: 15px;
+  }
+}

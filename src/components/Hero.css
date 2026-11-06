@@ -63,3 +63,22 @@
   height: auto;     /* Сохраняем пропорции */
   display: block;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* Текст и картинка в колонку */
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 32px; /* Уменьшаем заголовок */
+  }
+  .hero-buttons {
+    justify-content: center; /* Центрируем кнопки */
+    flex-wrap: wrap;
+  }
+  .hero-img {
+    max-width: 100%; /* Картинка не вылезает */
+    margin-top: 30px;
+  }
+}

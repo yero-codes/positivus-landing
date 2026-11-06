@@ -1,0 +1,85 @@
+.features {
+  background-color: #F8F9FF; /* Neutral - Zircon */
+  padding: 55px 120px; /* Отступы из Figma */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 60px; /* Gap из Figma */
+}
+
+.features-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 10px;
+}
+
+.features-header p {
+  font-size: 16px;
+  color: #555;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Расстояние между карточками */
+}
+
+.feature-card {
+  background-color: #FFFFFF; /* Белый фон карточки */
+  padding: 40px 30px;
+  border-radius: 16px; /* Скругление */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Легкая тень */
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon-placeholder {
+  font-size: 32px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #191A23;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1; /* Чтобы кнопка была внизу */
+}
+
+.learn-more {
+  color: #009379; /* Зеленый цвет для ссылки */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 40px 20px; /* Уменьшаем отступы на телефоне */
+  }
+
+  .features-grid {
+    flex-direction: column; /* Карточки встают в колонку */
+    align-items: center;    /* Центрируем их */
+  }
+
+  .feature-card {
+    width: 100%;            /* Карточка занимает всю ширину */
+    max-width: 400px;       /* Но не растягивается слишком сильно */
+  }
+}
