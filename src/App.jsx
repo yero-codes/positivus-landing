@@ -7,6 +7,7 @@ import Metrics from './components/Metrics';
 import HighlightedCTA from './components/HighlightedCTA';
 import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
+import Team from './components/Team';
 import './App.css';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <Metrics />
       <HighlightedCTA />
       <Testimonials />
-       <Pricing />
+      <Pricing />
+      <Team />
     </div>
   );
 }
