@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 120px; /* Отступы из Figma */
+  background-color: #F8F9FF; /* Такой же фон, как у шапки, чтобы было единое целое */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  background-color: #191A23; /* Темная кнопка */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #191A23;
+  color: #191A23;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image {
+  max-width: 600px;
+}
+
+.image-placeholder {
+  width: 500px;
+  height: 300px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
