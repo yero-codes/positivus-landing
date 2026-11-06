@@ -1,0 +1,62 @@
+.highlighted-cta {
+  background-color: #F8F9FF; /* Neutral - Zircon */
+  padding: 55px 120px; /* Отступы из Figma */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between; /* Картинка слева, текст справа */
+  align-items: center;
+  gap: 60px; /* Gap из Figma */
+}
+
+.cta-image {
+  flex: 1; /* Занимает половину ширины */
+}
+
+.image-placeholder-cta {
+  width: 400px;
+  height: 400px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.cta-content {
+  flex: 1; /* Занимает половину ширины */
+}
+
+.cta-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.cta-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn-cta {
+  background-color: #009379; /* Зеленая кнопка */
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-img {
+  width: 100%;
+  max-width: 500px; /* Ограничиваем размер картинки */
+  height: auto;
+}

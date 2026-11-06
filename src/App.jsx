@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import LogoBar from './components/LogoBar';
 import Features from './components/Features';
 import Metrics from './components/Metrics';
+import HighlightedCTA from './components/HighlightedCTA';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <LogoBar />
       <Features /> 
       <Metrics />
+      <HighlightedCTA />
     </div>
   );
 }
