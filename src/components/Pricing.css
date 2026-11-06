@@ -1,0 +1,119 @@
+.pricing {
+  background-color: #F8F9FF; /* Neutral - Zircon */
+  padding: 55px 120px; /* Отступы из Figma */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 60px; /* Gap из Figma */
+}
+
+.pricing-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 10px;
+}
+
+.pricing-header p {
+  font-size: 16px;
+  color: #555;
+}
+
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pricing-card {
+  background-color: #FFFFFF;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Стили для зеленой (выделенной) карточки */
+.pricing-card.highlighted {
+  background-color: #009379; /* Зеленый цвет из макета */
+  color: #FFFFFF;
+}
+
+.pricing-card.highlighted .plan-desc,
+.pricing-card.highlighted .features-list li {
+  color: rgba(255, 255, 255, 0.9); /* Светлый текст на зеленом фоне */
+}
+
+.pricing-card.highlighted h3,
+.pricing-card.highlighted .price {
+  color: #FFFFFF;
+}
+
+.pricing-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #191A23;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 10px;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: normal;
+  color: #888;
+}
+
+.plan-desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  min-height: 40px; /* Чтобы списки начинались на одном уровне */
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  flex-grow: 1; /* Прижимаем кнопку к низу */
+}
+
+.features-list li {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Кнопки */
+.btn-pricing {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.btn-pricing.outline {
+  background-color: transparent;
+  border: 1px solid #009379;
+  color: #009379;
+}
+
+.btn-pricing.solid {
+  background-color: #FFFFFF;
+  color: #009379;
+}
