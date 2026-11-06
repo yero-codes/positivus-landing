@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* распределяем элементы по краям */
+  align-items: center;
+  padding: 50px 20px; /* отступы из макета */
+  background-color: #F8F9FF; /* Цвет фона из Figma (Fill)*/
+  font-family: 'Inter', sans-serif; /* шрифт из макета */
+  max-width: 1200px; /* Ограничиваем ширину контента */
+  margin: 0 auto;    /* Центрируем по горизонтали */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;             /* логотип обычно черный , уточнить в макeте */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 50px; /* Расстояние между ссылками  в Figma */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333; /* Цвет текста из Figma */
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #000;
+} 
+
+.nav-buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn-login {
+ background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.btn-register {
+  background-color: #000; /* Кнопка "Get Started" обычно черная */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px; /* Скругление */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
