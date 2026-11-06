@@ -1,16 +1,27 @@
-# React + Vite
+# Positivus Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Это учебный проект — лендинг для SaaS-продукта, который помогает создавать привлекательные посадочные страницы. 
+Проект сверстан по бесплатному макету **Anima Landing Page UI Kit** из Figma Community.
 
-Currently, two official plugins are available:
+## 🎯 Задача проекта
+Создать современный одностраничный сайт, который демонстрирует возможности конструктора лендингов. 
+Главный посыл: «Create Engaging Landing Pages» (Создавайте привлекательные лендинги). 
+Цель — завлечь пользователя и побудить его нажать кнопку **Get Started**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Стек технологий
+- **React** (библиотека для построения интерфейсов)
+- **Vite** (сборщик проекта)
+- **CSS** (чистый CSS с использованием Flexbox и медиа-запросов для адаптива)
+- **GitHub Pages** (хостинг для живого сайта)
 
-## React Compiler
+## 🚀 Что реализовано
+- Семантическая и валидная верстка.
+- Полная адаптивность (корректное отображение на десктопе и мобильных устройствах).
+- Компонентный подход (Navbar, Hero, LogoBar, Features).
+- Настроен автоматический деплой через GitHub Actions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Живой сайт
+Проект доступен по ссылке: **[positivus-landing](https://yero-codes.github.io/positivus-landing/)**
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📸 Скриншоты
+*(Будут позже добавлены)*
