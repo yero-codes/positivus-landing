@@ -5,6 +5,7 @@ import LogoBar from './components/LogoBar';
 import Features from './components/Features';
 import Metrics from './components/Metrics';
 import HighlightedCTA from './components/HighlightedCTA';
+import Testimonials from './components/Testimonials';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Features /> 
       <Metrics />
       <HighlightedCTA />
+      <Testimonials />
     </div>
   );
 }
