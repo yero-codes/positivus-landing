@@ -1,0 +1,52 @@
+.metrics {
+  background-color: #F8F9FF; /* Neutral - Zircon */
+  padding: 55px 120px; /* Отступы из Figma */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.metrics-header {
+  text-align: center;
+  margin-bottom: 60px; /* Gap из Figma */
+}
+
+.metrics-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 10px;
+}
+
+.metrics-header p {
+  font-size: 16px;
+  color: #555;
+}
+
+.metrics-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Расстояние между карточками */
+}
+
+.metric-card {
+  background-color: #FFFFFF; /* Белый фон */
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Легкая тень */
+  width: 250px;
+  text-align: center;
+  border-bottom: 3px solid #009379; /* Зеленая полоска снизу (как в макете) */
+}
+
+.metric-card h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 10px;
+}
+
+.metric-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
