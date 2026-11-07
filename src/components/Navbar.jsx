@@ -6,16 +6,14 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Логотип (текстовый или картинка) */}
       <div className="logo">LandingPage</div>
-      
+
       {/* Ссылки навигации */}
       <ul className="nav-links">
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Enterprise</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      
+
       {/* Кнопки справа (Вход/Регистрация) */}
       <div className="nav-buttons">
         <button className="btn-login">Sign In</button>

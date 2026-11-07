@@ -3,7 +3,7 @@ import './Pricing.css';
 
 const Pricing = () => {
   return (
-    <section className="pricing">
+    <section id="pricing" className="pricing">
       <div className="pricing-header">
         <h2>Pick Your Perfect Plan</h2>
         <p>Find the perfect plan for your business with our flexible pricing options.</p>

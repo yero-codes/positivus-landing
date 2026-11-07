@@ -3,7 +3,7 @@ import './Features.css';
 
 const Features = () => {
   return (
-    <section className="features">
+    <section id="features" className="features">
       <div className="features-header">
         <h2>Features</h2>
         <p>These are just a few features you'll get using Anima Landing Page UI Kit.</p>

@@ -18,7 +18,7 @@ const ContactForm = () => {
 
   if (isSubmitted) {
     return (
-      <section className="contact-section">
+      <section id="contact" className="contact-section">
         <div className="contact-card" style={{ textAlign: 'center', padding: '100px 20px' }}>
           <h2 style={{ color: '#009379', marginBottom: '20px' }}>Спасибо!</h2>
           <p>Это демонстрационная форма. В реальном проекте здесь была бы отправка данных.</p>
@@ -28,7 +28,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className="contact-section">
+   <section id="contact" className="contact-section">
       <div className="contact-card">
         <div className="contact-header">
           <h2>Let's get in touch!</h2>
