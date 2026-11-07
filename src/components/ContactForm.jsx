@@ -4,48 +4,47 @@ import './ContactForm.css';
 const ContactForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name || !email) {
-      alert('Заполните все поля');
+      alert('Пожалуйста, заполните все поля');
       return;
     }
-    alert(`Спасибо, ${name}! Мы свяжемся с вами.`);
-    setName('');
-    setEmail('');
+    // Просто показываем сообщение, никуда не отправляем
+    setIsSubmitted(true);
   };
+
+  if (isSubmitted) {
+    return (
+      <section className="contact-section">
+        <div className="contact-card" style={{ textAlign: 'center', padding: '100px 20px' }}>
+          <h2 style={{ color: '#009379', marginBottom: '20px' }}>Спасибо!</h2>
+          <p>Это демонстрационная форма. В реальном проекте здесь была бы отправка данных.</p>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="contact-section">
       <div className="contact-card">
-        {/* Заголовок */}
         <div className="contact-header">
           <h2>Let's get in touch!</h2>
           <p>Got questions about the Landing Page UI Kit? Our team is here to help. Contact us for quick and friendly support.</p>
         </div>
 
         <div className="contact-content">
-          {/* Левая часть - контакты */}
           <div className="contact-details">
-            <div className="contact-item">
-              <span>📞</span> +012 345 6789
-            </div>
-            <div className="contact-item">
-              <span>✉️</span> Hello@animaapp.com
-            </div>
-            
+            <div className="contact-item"><span>📞</span> +012 345 6789</div>
+            <div className="contact-item"><span>✉️</span> Hello@animaapp.com</div>
             <div className="connect-with-us">
               <h3>Connect with us</h3>
-              <div className="social-icons">
-                <span>📸</span>
-                <span>💼</span>
-                <span>🐦</span>
-              </div>
+              <div className="social-icons"><span>📸</span><span>💼</span><span>🐦</span></div>
             </div>
           </div>
 
-          {/* Правая часть - форма */}
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <input 
