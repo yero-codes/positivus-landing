@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css';
 import heroImage from '../assets/hero-image.png';
 
-const Hero = () => {
+const Hero = ({ onGetStarted }) => {
   return (
     <section className="hero">
       <div className="hero-content">
@@ -10,7 +10,7 @@ const Hero = () => {
         <p>Build beautiful landing pages in record time with Anima's Landing Page UI Kit for Figma. No code required!</p>
         
         <div className="hero-buttons">
-          <button className="btn-primary">Get Started</button>
+          <button className="btn-primary" onClick={onGetStarted}>Get Started</button>
           <button className="btn-secondary">How it works</button>
         </div>
       </div>

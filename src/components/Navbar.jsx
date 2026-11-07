@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ onGetStarted }) => {
   return (
     <nav className="navbar">
       {/* Логотип (текстовый или картинка) */}
@@ -17,7 +17,7 @@ const Navbar = () => {
       {/* Кнопки справа (Вход/Регистрация) */}
       <div className="nav-buttons">
         <button className="btn-login">Sign In</button>
-        <button className="btn-register">Get Started</button>
+        <button className="btn-register" onClick={onGetStarted}>Get Started</button>
       </div>
     </nav>
   );

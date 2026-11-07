@@ -2,7 +2,7 @@ import React from 'react';
 import './HighlightedCTA.css';
 import ctaImage from '../assets/cta-image.png';
 
-const HighlightedCTA = () => {
+const HighlightedCTA = ({ onGetStarted }) => {
   return (
     <section className="highlighted-cta">
       <div className="cta-container">
@@ -15,7 +15,7 @@ const HighlightedCTA = () => {
         <div className="cta-content">
           <h2>Get Landing Page UI Kit Today!</h2>
           <p>Break the Figma limits and explore the endless possibilities with Anima.</p>
-          <button className="btn-cta">Get Started →</button>
+          <button className="btn-cta" onClick={onGetStarted}>Get Started →</button>
         </div>
       </div>
     </section>
