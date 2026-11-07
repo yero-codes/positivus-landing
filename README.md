@@ -24,4 +24,12 @@
 Проект доступен по ссылке: **[positivus-landing](https://yero-codes.github.io/positivus-landing/)**
 
 ## 📸 Скриншоты
-*(Будут позже добавлены)*
+
+### Главный экран
+![Главный экран](./public/screenshot-hero.png)
+
+### Интерактив (модальное окно)
+![Модальное окно](./public/screenshot-modal.png)
+
+### Тарифы
+![Тарифы](./public/screenshot-pricing.png)
