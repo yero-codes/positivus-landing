@@ -8,6 +8,7 @@ import HighlightedCTA from './components/HighlightedCTA';
 import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
+import HighlightedCTA2 from './components/HighlightedCTA2';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <Pricing />
       <Team />
+      <HighlightedCTA2 />
     </div>
   );
 }

@@ -1,0 +1,81 @@
+.cta-banner-section {
+  padding: 55px 120px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #F8F9FF; /* Общий фон страницы */
+}
+
+.cta-banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2C9B8; /* Розовый цвет фона из Figma */
+  border-radius: 20px; /* Скругление углов */
+  overflow: hidden; /* Чтобы картинка не вылезала за скругления */
+  padding: 40px 60px;
+  position: relative;
+}
+
+.cta-banner-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.cta-banner-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #191A23;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.cta-banner-content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.btn-cta-banner {
+  background-color: #009379;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-banner-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.cta-banner-image img {
+  max-width: 100%;
+  height: auto;
+  /* Сдвигаем картинку вправо, чтобы она красиво вылезала */
+  transform: translateX(20px); 
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 768px) {
+  .cta-banner-section {
+    padding: 40px 20px;
+  }
+  .cta-banner-container {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .cta-banner-image {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .cta-banner-image img {
+    transform: none;
+    max-width: 80%;
+  }
+}
