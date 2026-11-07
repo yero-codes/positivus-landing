@@ -1,0 +1,52 @@
+.footer {
+  background-color: #2D2D2D; /* Темный фон из Figma */
+  padding: 60px 24px; /* Отступы из Figma */
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1280px; /* Ширина контента */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 14px;
+  opacity: 0.8; /* Делаем текст чуть бледнее */
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4E4D4D; /* Цвет иконок из Figma */
+  color: #FFFFFF;
+  border-radius: 50%; /* Круглые иконки */
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.2s;
+}
+
+.social-icon:hover {
+  background-color: #009379; /* Зеленый при наведении */
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}

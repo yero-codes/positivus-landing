@@ -10,6 +10,7 @@ import Pricing from './components/Pricing';
 import Team from './components/Team';
 import HighlightedCTA2 from './components/HighlightedCTA2';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Team />
       <HighlightedCTA2 />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
