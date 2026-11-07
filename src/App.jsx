@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
 import HighlightedCTA2 from './components/HighlightedCTA2';
+import ContactForm from './components/ContactForm';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Pricing />
       <Team />
       <HighlightedCTA2 />
+      <ContactForm />
     </div>
   );
 }
